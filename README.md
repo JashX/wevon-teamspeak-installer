@@ -1,6 +1,9 @@
 # wevon-teamspeak-installer
 
-<br>
+<p align="center">
+  <img width="200" src="https://i.imgur.com/9x38wSV.png">
+</p>
+
 
 ### Instaldor:
 Para instalar el servidor de TeamSpeak usando Docker, ejecuta el siguiente comando:
