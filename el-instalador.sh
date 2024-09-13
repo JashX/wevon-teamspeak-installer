@@ -78,11 +78,11 @@ separator
 message "Paso 6: Iniciando TeamSpeak Server..."
 separator
 
-# sudo docker run -it -p 9987:9987/udp -p 10011:10011 -p 30033:30033 -e TS3SERVER_LICENSE=accept --restart=always teamspeak
+# Comando de "repaldo", para que no se me pierda: sudo docker run -it -p 9987:9987/udp -p 10011:10011 -p 30033:30033 -e TS3SERVER_LICENSE=accept --restart=always teamspeak
 
 # Iniciar el contenedor en segundo plano
 sudo docker run -d -p 9987:9987/udp -p 10011:10011 -p 30033:30033 -e TS3SERVER_LICENSE=accept --restart=always teamspeak
 
-# Obtener el ID del contenedor y mostrar logs en tiempo real
+# Obtener el ID del contenedor y mostrar logs en tiempo real en caso de algún error inesperado.
 container_id=$(sudo docker ps -q --filter ancestor=teamspeak)
 sudo docker logs -f $container_id
