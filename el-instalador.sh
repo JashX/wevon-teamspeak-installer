@@ -65,7 +65,7 @@ sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 check_success "Instalación de Docker Compose"
 
-# 5: Instalar TeamSpeak Server usando Docker
+# 5: Instalar TeamSpeak server usando Docker
 separator
 message "Paso 5: Instalando TeamSpeak Server..."
 separator
@@ -79,8 +79,3 @@ message "Paso 6: Iniciando TeamSpeak Server..."
 separator
 
 sudo docker run -d -p 9987:9987/udp -p 10011:10011 -p 30033:30033 -e TS3SERVER_LICENSE=accept --restart=always teamspeak
-check_success "Ejecución de TeamSpeak"
-
-separator
-echo -e "${GREEN}Todo listo! :D${NC}"
-separator
