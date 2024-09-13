@@ -1,7 +1,6 @@
 # wevon-teamspeak-installer
 
 <br>
-<br>
 
 ### Instaldor:
 Para instalar el servidor de TeamSpeak usando Docker, ejecuta el siguiente comando:
@@ -11,7 +10,6 @@ bash -c "$(wget -qLO - https://raw.githubusercontent.com/JashX/wevon-teamspeak-i
 ```
 
 <br>
-<br>
 
 ### Para actualizar
 Para actualizar el servidor de TeamSpeak, ejecuta el siguiente comando para obtener la última imagen de Docker:
@@ -20,7 +18,6 @@ Para actualizar el servidor de TeamSpeak, ejecuta el siguiente comando para obte
 sudo docker pull teamspeak
 ```
 
-<br>
 <br>
 
 ### Por si no copiaste las claves:
