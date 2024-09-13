@@ -1,7 +1,7 @@
 # wevon-teamspeak-installer
 
 <p align="center">
-  <img width="200" src="https://i.imgur.com/9x38wSV.png">
+  <img width="200" src="/_assets/logo1.png">
 </p>
 
 
