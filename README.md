@@ -1,7 +1,13 @@
 # wevon-teamspeak-installer
 
+### Instalador feo:
+
 ```
-bash <(curl -s https://raw.githubusercontent.com/JashX/wevon-teamspeak-installer/main/el-script.sh?token=GHSAT0AAAAAACXODEE2U3X6OGDOPXUNPIV6ZXD4HYA)
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/JashX/wevon-teamspeak-installer/main/el-script.sh)"
 ```
 
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/JashX/wevon-teamspeak-installer/main/el-script.sh?token=GHSAT0AAAAAACXODEE2U3X6OGDOPXUNPIV6ZXD4HYA)"
+### Instaldor "bonito":
+
+```
+bash -c "$(wget -qLO - https://raw.githubusercontent.com/JashX/wevon-teamspeak-installer/main/el-instalador.sh)"
+```
